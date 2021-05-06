@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Menu /> debe de mostrarse correctamente 1`] = `
+<nav
+  className="container"
+>
+  <ul
+    className="menu false"
+  >
+    <li
+      className="menu__link activelink"
+      onClick={[Function]}
+    >
+      Avianca
+    </li>
+    <li
+      className="menu__link false"
+      onClick={[Function]}
+    >
+      Vivair
+    </li>
+  </ul>
+  <div
+    className="menu__button"
+    onClick={[Function]}
+  >
+    <div
+      className="menu__line"
+    />
+    <div
+      className="menu__line"
+    />
+    <div
+      className="menu__line"
+    />
+  </div>
+</nav>
+`;
