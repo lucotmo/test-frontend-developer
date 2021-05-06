@@ -1,0 +1,18 @@
+.content{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
+.input{
+  width: calc(100% - 1rem);
+  border: 1px solid #333;
+  margin: .3rem 0;
+  padding: .3rem .5rem;
+  border-radius: 4px;
+}
+
+.input--error{
+  border: 1px solid #d71209;
+}
