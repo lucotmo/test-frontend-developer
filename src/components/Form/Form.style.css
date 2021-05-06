@@ -9,3 +9,27 @@
   background-color: white;
   box-shadow: 1px 1px 3px 2px rgba(238, 238, 238, 1);
 }
+
+.form__title{
+  text-align: center;
+  margin: .5rem 0;
+  color: #333;
+}
+
+.form__welcome{
+  margin: .5rem 0;
+  color: #777;
+}
+
+.form__welcome strong{
+  color: #333;
+}
+
+.form__errors{
+  margin: .5rem 0;
+  padding: .5rem;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #d71209;
+}
