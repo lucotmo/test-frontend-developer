@@ -1,9 +1,17 @@
+import Menu from './components/Menu'
+import Form from './components/Form'
+
 import './styles.css'
 
 export const App = () => {
   return (
-    <div>
-      <h1>Initial project</h1>
-    </div>
+    <>
+      <header className="header">
+        <Menu />
+      </header>
+      <main className="main">
+        <Form />
+      </main>
+    </>
   )
 }
